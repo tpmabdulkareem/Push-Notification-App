@@ -15,13 +15,13 @@ My requirements were simple I needed to incorporate Local notifications that I c
 
 - [React-Native-Push-Notification](https://www.npmjs.com/package/react-native-push-notification)
 
-> A npm library for React Native Local and Remote Notifications for iOS and Android
+> A NPM library for React Native Local and Remote Notifications for iOS and Android
 
 ## Running the project
 
 - Clone this project
 ```
-git clone < project-url.git >
+git clone https://github.com/tpmabdulkareem/Push-Notification-App.git
 ```
 
 - [Install NodeJS](https://nodejs.org/en/) on your computer.
