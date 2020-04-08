@@ -1,6 +1,5 @@
 # Push Notification in React Native | Android
-
-![Push-Notification-App-UI](https://github.com/tpmabdulkareem/Push-Notification-App/raw/master/Screenshot_1586341482.png =100x20)
+[<img src="https://github.com/tpmabdulkareem/Push-Notification-App/raw/master/Screenshot_1586341482.png" width="250"/>](image.png)
 
 My requirements were simple I needed to incorporate Local notifications that I could schedule to to appear at a later time for Android. I also needed these notifications to still display even if the app was closed. After some research I found that react-native-push-notification was my best bet. However, I found that this was a bit tricky to get up and running, but at long last I was successful. My struggle is your lucky day.
 
