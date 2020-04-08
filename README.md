@@ -4,8 +4,7 @@
 My requirements were simple I needed to incorporate Local notifications that I could schedule to to appear at a later time for Android. I also needed these notifications to still display even if the app was closed. After some research I found that react-native-push-notification was my best bet. However, I found that this was a bit tricky to get up and running, but at long last I was successful. My struggle is your lucky day.
 
 ## Preview
-
-![gif preview](https://github.com/tpmabdulkareem/Push-Notification-App/raw/master/Scheduled%20Notifications.gif){ width=50% height=50% }
+[<img src="https://github.com/tpmabdulkareem/Push-Notification-App/raw/master/Scheduled%20Notifications.gif" width="250"/>](image.png)
 
 
 ## Libraries used
