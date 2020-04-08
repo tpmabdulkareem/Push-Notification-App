@@ -50,14 +50,21 @@ const App: () => React$Node = () => {
     PushNotification.localNotificationSchedule({
       title: 'Scheduled Notification',
       message: 'Scheduled Notification Message', // (required)
-      date: new Date(Date.now() + 60 * 300),
+      date: new Date(Date.now() + 60 * 1000),
     });
   };
 
   return (
     <SafeAreaView style={styles.container}>
+      <Text style={styles.text}>
+        Click the below button to trigger Local Notification
+      </Text>
       <Text style={styles.title} onPress={localPushNotification}>
-        Push Notification Demo App
+        Push Notification Demo
+      </Text>
+
+      <Text style={styles.bottomText}>
+        Scheduled Notification is scheduled for 10 sec after the opening of App.
       </Text>
     </SafeAreaView>
   );
@@ -81,6 +88,13 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 30,
     fontWeight: 'bold',
+  },
+  text: {
+    textAlign: 'center',
+  },
+  bottomText: {
+    textAlign: 'center',
+    marginTop: 30,
   },
 });
 
