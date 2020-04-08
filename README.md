@@ -15,6 +15,8 @@ My requirements were simple I needed to incorporate Local notifications that I c
 
 - [React-Native-Push-Notification](https://www.npmjs.com/package/react-native-push-notification)
 
+> A npm library for React Native Local and Remote Notifications for iOS and Android
+
 ## Running the project
 
 - Clone this project
