@@ -16,6 +16,7 @@ import {
 import PushNotification from 'react-native-push-notification';
 
 const App: () => React$Node = () => {
+  // Configuration files
   useEffect(() => {
     PushNotification.configure({
       onRegister: function (token) {
@@ -36,6 +37,7 @@ const App: () => React$Node = () => {
     scheduledNotification();
   }, []);
 
+  // Function for Local Notification
   const localPushNotification = () => {
     PushNotification.localNotification({
       title: 'Local Notification',
@@ -43,6 +45,7 @@ const App: () => React$Node = () => {
     });
   };
 
+  // Function for Scheduled Notification
   const scheduledNotification = () => {
     PushNotification.localNotificationSchedule({
       title: 'Scheduled Notification',
@@ -54,7 +57,7 @@ const App: () => React$Node = () => {
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.title} onPress={localPushNotification}>
-        Push Notification
+        Push Notification Demo App
       </Text>
     </SafeAreaView>
   );
