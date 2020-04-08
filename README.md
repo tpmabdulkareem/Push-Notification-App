@@ -4,7 +4,7 @@ My requirements were simple I needed to incorporate Local notifications that I c
 
 ## Preview
 
-![gif preview](https://raw.githubusercontent.com/mbeaudru/react-native-sample/master/assets/preview.gif)
+![gif preview](https://github.com/tpmabdulkareem/Push-Notification-App/raw/master/Scheduled%20Notifications.gif)
 
 
 ## Libraries used
